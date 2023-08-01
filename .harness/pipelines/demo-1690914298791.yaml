@@ -23,7 +23,7 @@ pipeline:
                   spec:
                     connectorRef: account.harnessImage
                     image: alpine
-                    shell: Sh
+                    shell: Bash
                     command: echo "Welcome to Harness CI"
   properties:
     ci:
